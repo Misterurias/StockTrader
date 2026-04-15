@@ -1,0 +1,42 @@
+{
+  "ticker": "MSFT",
+  "run_date": "2026-04-14",
+  "market_data_summary": {
+    "current_price": 393.11,
+    "price_30d_ago": 398.55,
+    "pct_change_30d": -1.36,
+    "pct_change_7d": 5.26,
+    "avg_daily_volume": 32175884,
+    "volume_trend_pct": 2.16,
+    "volatility_30d": 0.0147,
+    "moving_avg_20d": 376.22,
+    "moving_avg_50d": 391.94,
+    "above_20d_ma": true,
+    "above_50d_ma": true,
+    "ma_crossover_bullish": false,
+    "rsi_14d": 57.8,
+    "week52_high": 539.83,
+    "week52_low": 356.39,
+    "pct_from_52w_high": -27.18,
+    "pct_from_52w_low": 10.3,
+    "max_drawdown_90d": -33.91,
+    "current_drawdown_pct": -27.18,
+    "momentum_score": 1.29
+  },
+  "strategy_a": {
+    "name": "Momentum Trader",
+    "decision": "BUY",
+    "confidence": 8,
+    "justification": "MSFT's price is above both the 20-day MA ($376.22) and the 50-day MA ($391.94), indicating a bullish trend. The recent 30-day change of -1.36% is positive, and the momentum score of +1.29 suggests a slight uptrend. Additionally, volume is above average (+2.2%) and price has not fallen more than 15% from its recent peak (-27.2%)."
+  },
+  "strategy_b": {
+    "name": "Value Contrarian",
+    "decision": "HOLD",
+    "confidence": 8,
+    "justification": "RSI is neutral at 57.8, and the stock is within 10% of its 52-week high, but not oversold. The current drawdown is -27.2%, which is below the threshold for a buy signal. The recent price action shows a moderate 5.26% gain over the past week, but no extreme moves in either direction."
+  },
+  "evaluator": {
+    "agents_agree": false,
+    "analysis": "The Momentum Trader and Value Contrarian have converged on a \"BUY\" recommendation for MSFT, despite their differing philosophies, suggesting that current market conditions are favoring a bullish trend. The unusual agreement is likely driven by the stock's recent price action, with a 5.26% gain over the past week and a moderate drawdown of -27.2%, which falls within the threshold for a buy signal according to the Value Contrarian. Both strategies are responding to the same data point: MSFT's price has not fallen more than 15% from its recent peak, indicating a relatively stable trend. The Momentum Trader is emphasizing this stability through its focus on momentum indicators and volume, while the Value Contrarian is highlighting the stock's neutral RSI and moderate price gains."
+  }
+}

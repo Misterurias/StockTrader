@@ -1,0 +1,42 @@
+{
+  "ticker": "GME",
+  "run_date": "2026-04-14",
+  "market_data_summary": {
+    "current_price": 24.03,
+    "price_30d_ago": 24.2,
+    "pct_change_30d": -0.7,
+    "pct_change_7d": 2.87,
+    "avg_daily_volume": 5833646,
+    "volume_trend_pct": 8.97,
+    "volatility_30d": 0.018,
+    "moving_avg_20d": 23.04,
+    "moving_avg_50d": 23.71,
+    "above_20d_ma": true,
+    "above_50d_ma": true,
+    "ma_crossover_bullish": false,
+    "rsi_14d": 57.9,
+    "week52_high": 35.01,
+    "week52_low": 19.94,
+    "pct_from_52w_high": -31.36,
+    "pct_from_52w_low": 20.51,
+    "max_drawdown_90d": -42.64,
+    "current_drawdown_pct": -31.36,
+    "momentum_score": 0.73
+  },
+  "strategy_a": {
+    "name": "Momentum Trader",
+    "decision": "BUY",
+    "confidence": 8,
+    "justification": "GME's price is above both the 20-day MA ($23.04) and the 50-day MA ($23.71), indicating a bullish trend. The recent 30-day change of -0.70% is positive, and the momentum score of +0.73 further supports this trend. Additionally, volume has increased by 9.0% from its average, suggesting growing interest in the stock."
+  },
+  "strategy_b": {
+    "name": "Value Contrarian",
+    "decision": "BUY",
+    "confidence": 8,
+    "justification": "GME is trading at a RSI of 57.9, which is neutral, and its current price is $24.03, more than 20% below its 52-week high of $35.01. The recent 30-day change is -0.70%, indicating no extreme recent move in either direction. Additionally, the stock has a best day (30d) of +3.46%, suggesting some upside potential."
+  },
+  "evaluator": {
+    "agents_agree": true,
+    "analysis": "The convergence of these two strategies suggests that market conditions are currently favoring a contrarian approach to investing in GME. The unusual alignment of their recommendations indicates that the momentum trader is being swayed by the stock's recent price action, with its 7-day change and volume increase supporting a bullish trend. However, the value contrarian's buy recommendation is driven by the stock's neutral RSI reading and its significant distance from its 52-week high, indicating an undervalued position. Both strategies are responding to the same data points - the recent price action and volume increase - but with different interpretations, suggesting that investors may be witnessing a shift towards value investing in this market environment.\n\nThe disagreement between these two strategies highlights the importance of considering multiple perspectives when evaluating a stock's potential. The momentum trader is focusing on GME's short-term price momentum, while the value contrarian is taking a longer-term view, looking for undervaluation opportunities. Given the current market conditions, it appears that value investors may be better positioned to capitalize on GME's relative cheapness compared to momentum traders who are riding the recent price gains."
+  }
+}

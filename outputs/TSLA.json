@@ -1,0 +1,42 @@
+{
+  "ticker": "TSLA",
+  "run_date": "2026-04-14",
+  "market_data_summary": {
+    "current_price": 364.2,
+    "price_30d_ago": 403.32,
+    "pct_change_30d": -9.7,
+    "pct_change_7d": 1.0,
+    "avg_daily_volume": 63457357,
+    "volume_trend_pct": -4.75,
+    "volatility_30d": 0.0248,
+    "moving_avg_20d": 367.34,
+    "moving_avg_50d": 391.7,
+    "above_20d_ma": false,
+    "above_50d_ma": false,
+    "ma_crossover_bullish": false,
+    "rsi_14d": 45.88,
+    "week52_high": 489.88,
+    "week52_low": 227.5,
+    "pct_from_52w_high": -25.66,
+    "pct_from_52w_low": 60.09,
+    "max_drawdown_90d": -29.93,
+    "current_drawdown_pct": -25.66,
+    "momentum_score": -5.42
+  },
+  "strategy_a": {
+    "name": "Momentum Trader",
+    "decision": "SELL",
+    "confidence": 8,
+    "justification": "Price is below both the 20-day MA ($367.34) and the 50-day MA ($391.7), indicating a bearish trend crossover signal. The recent 30-day change is negative (-9.70%) with a momentum score of -5.42, further supporting this decision."
+  },
+  "strategy_b": {
+    "name": "Value Contrarian",
+    "decision": "BUY",
+    "confidence": 8,
+    "justification": "TSLA is oversold with an RSI of 45.88, currently 20% below its 52-week high of $489.88. The recent 30-day change of -9.70% indicates a significant decline, suggesting genuine fear. Additionally, the stock's current drawdown of -25.7% from its recent peak is worse than -20%, indicating an overreaction selloff."
+  },
+  "evaluator": {
+    "agents_agree": false,
+    "analysis": "The convergence of these two strategies' recommendations for TSLA on 2026-04-14 is unusual and significant, suggesting that market conditions may be favoring a contrarian approach. Both strategies are responding to the stock's recent decline (-9.70% over the past 30 days) and its current drawdown (-25.7%) from its recent peak, which Value Contrarian interprets as an oversold condition. Momentum Trader is also focusing on the bearish trend crossover signal created by the price falling below both the 20-day MA ($367.34) and the 50-day MA ($391.7), but with a slightly lower confidence level (8/10). The key data point driving this agreement is the stock's significant decline, which has led to an overreaction selloff according to Value Contrarian, while Momentum Trader sees it as a bearish trend signal."
+  }
+}

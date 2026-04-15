@@ -1,0 +1,42 @@
+{
+  "ticker": "NVDA",
+  "run_date": "2026-04-14",
+  "market_data_summary": {
+    "current_price": 196.51,
+    "price_30d_ago": 182.47,
+    "pct_change_30d": 7.69,
+    "pct_change_7d": 10.78,
+    "avg_daily_volume": 169561294,
+    "volume_trend_pct": -15.38,
+    "volatility_30d": 0.0213,
+    "moving_avg_20d": 178.54,
+    "moving_avg_50d": 182.12,
+    "above_20d_ma": true,
+    "above_50d_ma": true,
+    "ma_crossover_bullish": false,
+    "rsi_14d": 68.07,
+    "week52_high": 207.02,
+    "week52_low": 96.89,
+    "pct_from_52w_high": -5.08,
+    "pct_from_52w_low": 102.82,
+    "max_drawdown_90d": -20.21,
+    "current_drawdown_pct": -5.08,
+    "momentum_score": 8.93
+  },
+  "strategy_a": {
+    "name": "Momentum Trader",
+    "decision": "BUY",
+    "confidence": 9,
+    "justification": "NVDA's price is above both the 20-day MA ($178.54) and the 50-day MA ($182.12), indicating a bullish trend. The recent 30-day change of +7.69% and momentum score of +8.93 further support this trend. Although the volume vs avg is -15.4%, which indicates a decline in trading activity, the overall price action suggests that NVDA will continue to rise."
+  },
+  "strategy_b": {
+    "name": "Value Contrarian",
+    "decision": "SELL",
+    "confidence": 8,
+    "justification": "NVDA's RSI of 68.07 is above 65, and it's within 10% of its 52-week high, indicating overbought conditions. Additionally, the stock has surged more than 15% in the past 30 days (+7.69%) and is currently above its 20-day MA, suggesting a potential sell signal."
+  },
+  "evaluator": {
+    "agents_agree": false,
+    "analysis": "The agreement between the Momentum Trader and Value Contrarian on NVDA's buy recommendation may indicate that current market conditions are favoring a strong trend, with both strategies responding to the stock's recent price action. The convergence is unusual because value contrarians typically look for overvalued stocks, while momentum traders seek trending stocks. Both strategies are likely responding to the same data point: the stock's 30-day change of +7.69%, which suggests a strong upward trend. However, the Value Contrarian's emphasis on the RSI and recent price surge indicates that they believe NVDA is due for a correction.\n\nThe disagreement between the two strategies reveals different interpretations of the market data. The Momentum Trader weights the stock's price action above its moving averages, while the Value Contrarian places more emphasis on the RSI and recent price surge. This suggests that the Momentum Trader sees NVDA as a strong trending stock, whereas the Value Contrarian views it as overvalued. Given this divergence, NVDA may be best suited for investors who are willing to ride out potential volatility in a strong trend, rather than those seeking value or contrarian opportunities."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "strategies": [
+    "Momentum Trader",
+    "Value Contrarian"
+  ],
+  "stocks_analyzed": [
+    "MSFT",
+    "NVDA",
+    "PFE",
+    "INTC",
+    "GME",
+    "TSLA"
+  ],
+  "total_agreements": 1,
+  "total_disagreements": 5,
+  "results": [
+    {
+      "ticker": "MSFT",
+      "a_decision": "BUY",
+      "a_confidence": 8,
+      "b_decision": "HOLD",
+      "b_confidence": 8,
+      "agree": false
+    },
+    {
+      "ticker": "NVDA",
+      "a_decision": "BUY",
+      "a_confidence": 9,
+      "b_decision": "SELL",
+      "b_confidence": 8,
+      "agree": false
+    },
+    {
+      "ticker": "PFE",
+      "a_decision": "SELL",
+      "a_confidence": 9,
+      "b_decision": "BUY",
+      "b_confidence": 8,
+      "agree": false
+    },
+    {
+      "ticker": "INTC",
+      "a_decision": "BUY",
+      "a_confidence": 9,
+      "b_decision": "SELL",
+      "b_confidence": 8,
+      "agree": false
+    },
+    {
+      "ticker": "GME",
+      "a_decision": "BUY",
+      "a_confidence": 8,
+      "b_decision": "BUY",
+      "b_confidence": 8,
+      "agree": true
+    },
+    {
+      "ticker": "TSLA",
+      "a_decision": "SELL",
+      "a_confidence": 8,
+      "b_decision": "BUY",
+      "b_confidence": 8,
+      "agree": false
+    }
+  ]
+}

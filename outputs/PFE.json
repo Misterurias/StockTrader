@@ -1,0 +1,42 @@
+{
+  "ticker": "PFE",
+  "run_date": "2026-04-14",
+  "market_data_summary": {
+    "current_price": 27.11,
+    "price_30d_ago": 27.26,
+    "pct_change_30d": -0.55,
+    "pct_change_7d": -4.27,
+    "avg_daily_volume": 39456201,
+    "volume_trend_pct": -20.52,
+    "volatility_30d": 0.0149,
+    "moving_avg_20d": 27.42,
+    "moving_avg_50d": 27.17,
+    "above_20d_ma": false,
+    "above_50d_ma": false,
+    "ma_crossover_bullish": true,
+    "rsi_14d": 48.12,
+    "week52_high": 28.55,
+    "week52_low": 20.55,
+    "pct_from_52w_high": -5.04,
+    "pct_from_52w_low": 31.93,
+    "max_drawdown_90d": -7.5,
+    "current_drawdown_pct": -5.04,
+    "momentum_score": -2.04
+  },
+  "strategy_a": {
+    "name": "Momentum Trader",
+    "decision": "SELL",
+    "confidence": 9,
+    "justification": "Price is below both the 20-day MA ($27.42) and the 50-day MA ($27.17), indicating a bearish trend. The 30-day percentage change is negative (-0.55%) with a momentum score of -2.04, further confirming the downtrend."
+  },
+  "strategy_b": {
+    "name": "Value Contrarian",
+    "decision": "BUY",
+    "confidence": 8,
+    "justification": "PFE is currently trading at $27.11, which is 20% below its 52-week high of $28.55. The RSI (48.12) is neutral, but the stock's recent drawdown (-5%) suggests an overreaction selloff. With a momentum score of -2.04 and a volume vs avg ratio of -20.5%, PFE appears to be undervalued and oversold."
+  },
+  "evaluator": {
+    "agents_agree": false,
+    "analysis": "The agreement between the Momentum Trader and Value Contrarian on selling PFE is unusual, as both strategies typically hold opposing views when they converge. The recent price action, with a 7-day change of -4.27% and a 30-day change of -0.55%, suggests that both strategies are responding to a bearish trend in the stock's price movement. However, the specific data points driving their disagreement lie in the valuation metrics: while the Momentum Trader is focusing on the negative momentum score (-2.04) and volume vs avg ratio (-20.5%), the Value Contrarian is emphasizing PFE's undervaluation due to its 52-week high of $28.55 being 20% above current price, indicating an overreaction selloff. This divergence suggests that PFE may be best suited for a value investor who can capitalize on the stock's recent drawdown and oversold conditions."
+  }
+}

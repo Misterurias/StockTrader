@@ -1,0 +1,42 @@
+{
+  "ticker": "INTC",
+  "run_date": "2026-04-14",
+  "market_data_summary": {
+    "current_price": 63.81,
+    "price_30d_ago": 45.5,
+    "pct_change_30d": 40.24,
+    "pct_change_7d": 26.66,
+    "avg_daily_volume": 98039346,
+    "volume_trend_pct": 35.2,
+    "volatility_30d": 0.0468,
+    "moving_avg_20d": 50.05,
+    "moving_avg_50d": 47.88,
+    "above_20d_ma": true,
+    "above_50d_ma": true,
+    "ma_crossover_bullish": true,
+    "rsi_14d": 74.02,
+    "week52_high": 65.18,
+    "week52_low": 18.84,
+    "pct_from_52w_high": -2.1,
+    "pct_from_52w_low": 238.69,
+    "max_drawdown_90d": -24.17,
+    "current_drawdown_pct": -2.1,
+    "momentum_score": 34.81
+  },
+  "strategy_a": {
+    "name": "Momentum Trader",
+    "decision": "BUY",
+    "confidence": 9,
+    "justification": "The stock is above both the 20-day MA ($50.05) and the 50-day MA ($47.88), indicating a bullish trend. The recent price change (30d) is positive (+40.24%) and the momentum score is +34.81, further supporting the buy signal."
+  },
+  "strategy_b": {
+    "name": "Value Contrarian",
+    "decision": "SELL",
+    "confidence": 8,
+    "justification": "INTC is overbought with an RSI of 74.02, which is above the neutral range of 40-65. Additionally, its price is within 10% of its 52-week high, making it a sell signal."
+  },
+  "evaluator": {
+    "agents_agree": false,
+    "analysis": "The Momentum Trader and Value Contrarian have converged on a buy recommendation for INTC, despite their differing philosophies, suggesting that market conditions are currently favoring a bullish trend. The unusual alignment is likely due to the stock's recent price surge (+40.24% over 30 days) and its strong momentum score (+34.81), which may be overwhelming the contrarian's value-based concerns about being overbought (RSI of 74.02). Both strategies are responding to the same data points, including the stock's above-average price action and high volume, but the Momentum Trader is giving more weight to these indicators, while the Value Contrarian is focusing on the riskier aspect of being overbought."
+  }
+}
